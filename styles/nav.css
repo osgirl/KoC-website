@@ -1,0 +1,106 @@
+header {
+  font-size: 1.6em;
+}
+
+#fig-container {
+  padding: 0.5em;
+}
+
+#header-image {
+  height: 9em;
+  margin: 0;
+  background: url('/images/KoC_bainbridge.jpg') no-repeat left;
+  background-size: contain;
+}
+
+#emblems {
+  display: none;
+  float: right;
+  margin-top: 2em;
+  margin-right: 1.5em;
+}
+
+#fourth-degree {
+  width: 6em;
+  padding-right: 3em;
+}
+
+#squires {
+  width: 6em;
+  padding-bottom: 1em;
+}
+
+nav {
+  clear: both;
+  height: auto;
+  width: 100%;
+  background-color: #142C72;
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 1.6em;
+}
+
+nav i.fa-bars {
+  font-size: 2.4rem;
+  padding: 0.25em 0.5em;
+}
+
+#hamburger {
+  text-align: right;
+  display: block;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#main-nav a:hover,
+#inner-nav a:hover,
+#links:hover {
+  color: #FBAA3C;
+}
+
+#main-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em 0 0.5em;
+  border-top: solid 1px #FBAB3C;
+  width: 100%;
+
+}
+
+#main-nav li {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#links {
+  cursor: pointer;
+}
+
+#inner-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  #header-image {
+    height: 10em;
+  }
+}
+
+@media (min-width: 800px) {
+  #emblems {
+    display: block;
+    float: right;
+  }
+  #header-image {
+    height: 12em;
+  }
+  #fig-container {
+    float: left;
+    width: 485px;
+  }
+}
