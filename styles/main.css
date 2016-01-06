@@ -1,8 +1,3 @@
-main {
-  font-size: 1.6em;
-  padding: 0 0.5em;
-}
-
 main h1 {
   font-family: Copperplate, 'Marcellus SC', times, serif;
   font-weight: 300;
@@ -17,14 +12,11 @@ main h2 {
   margin-bottom: 0.5em;
 }
 
+main h2:nth-child(n+2) {
+  margin: 2em 0 0;
+}
+
 main p {
   font-size: 1.2em;
   font-weight: lighter;
-  margin: 0 0 2em;
-}
-
-@media (min-width: 600px) {
-  main {
-    padding: 0 1.5em;
-  }
 }
