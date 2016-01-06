@@ -48,7 +48,12 @@ nav i.fa-bars {
 
 #hamburger {
   text-align: right;
-  display: block;
+  display: flex;
+  align-items: center;
+}
+
+#hamburger span {
+  flex: auto;
 }
 
 nav a {
@@ -59,14 +64,15 @@ nav a {
 #main-nav a:hover,
 #inner-nav a:hover,
 #links:hover {
-  color: #FBAA3C;
+  color: #E7A915;
 }
 
 #main-nav {
+  display: none;
   list-style-type: none;
   margin: 0;
   padding: 0.5em 0 0.5em;
-  border-top: solid 1px #FBAB3C;
+  border-top: solid 1px #E7A915;
   width: 100%;
 
 }
@@ -80,9 +86,14 @@ nav a {
   cursor: pointer;
 }
 
+.fa-angle-up {
+  display: none;
+}
+
 #inner-nav {
+  display: none;
   list-style-type: none;
-  padding: 0;
+  padding: 0 1em 0;
 }
 
 @media (min-width: 600px) {
@@ -102,5 +113,40 @@ nav a {
   #fig-container {
     float: left;
     width: 485px;
+  }
+
+  #hamburger,
+  .fa {
+    display: none;
+  }
+
+  .fa-angle-down {
+    display: inline;
+  }
+
+  nav {
+    font-size: 1.2em;
+  }
+
+  #main-nav {
+    display: block;
+    border-top: none;
+  }
+
+  #main-nav > li {
+    display: inline-block;
+    padding-right: 0;
+  }
+
+  #links {
+    padding-bottom: 0.5em;
+  }
+
+  #inner-nav {
+    width: auto;
+    position: absolute;
+    padding: 0.5em 0;
+    background-color: #142C72;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
   }
 }
