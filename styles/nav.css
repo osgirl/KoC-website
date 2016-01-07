@@ -15,19 +15,6 @@ header {
 
 #emblems {
   display: none;
-  float: right;
-  margin-top: 2em;
-  margin-right: 1.5em;
-}
-
-#fourth-degree {
-  width: 6em;
-  padding-right: 3em;
-}
-
-#squires {
-  width: 6em;
-  padding-bottom: 1em;
 }
 
 nav {
@@ -100,19 +87,49 @@ nav a {
   #header-image {
     height: 10em;
   }
+
+  #fig-container {
+    float: left;
+    width: 395px;
+  }
+
+  #emblems {
+    display: block;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1.5em;
+  }
+
+  #fourth-degree {
+    width: 4em;
+    padding-right: 2em;
+  }
+
+  #squires {
+    width: 4em;
+    padding-bottom: 1em;
+  }
 }
 
 @media (min-width: 800px) {
   #emblems {
-    display: block;
     float: right;
+    margin-top: 2em;
+    margin-right: 1.5em;
   }
+
+  #fourth-degree {
+    width: 6em;
+    padding-right: 3em;
+  }
+
+  #squires {
+    width: 6em;
+    padding-bottom: 1em;
+  }
+
   #header-image {
     height: 12em;
-  }
-  #fig-container {
-    float: left;
-    width: 485px;
   }
 
   #hamburger,
@@ -136,6 +153,10 @@ nav a {
   #main-nav > li {
     display: inline-block;
     padding-right: 0;
+  }
+
+  #main-nav > li:first-child {
+    padding-left: 2em;
   }
 
   #links {
