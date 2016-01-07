@@ -1,18 +1,10 @@
-main h1 {
-  font-family: Copperplate, 'Marcellus SC', times, serif;
-  font-weight: 300;
-  font-size: 2em;
-  letter-spacing: -2px;
-  margin-bottom: 0.5em;
-}
-
 main h2 {
   font-weight: 400;
   font-size: 1.6em;
   margin-bottom: 0.5em;
 }
 
-main h2:nth-child(n+2) {
+section:not(#officers) h2:nth-child(n+2) {
   margin: 2em 0 0;
 }
 

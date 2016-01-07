@@ -1,18 +1,24 @@
 var pageController = {};
+var officersArray;
 
-pageController.index = function() {
-  $('#home').fadeIn().siblings().hide();
-}
+pageController.getTemplate = function(ctx, next) {
+  if (pageView.template) {
+    next();
+  } else {
+    $.get('/templates/officers.html', function(data, message, xhr) {
+      pageView.template = Handlebars.compile(data);
+      next();
+    });
+  }
+};
 
-pageController.showHide = function() {
-  $('#main-nav > li').on('click', function(event) {
-    var $this = $(this);
-    var $index = $this.index();
-    var $section = $('section')[$index];
-    $($section).fadeIn().siblings().hide();
-  });
-}
-
-$(function(){
-  pageController.showHide();
-});
+pageController.getOfficers = function(ctx, next) {
+  if (officersArray) {
+    next();
+  } else {
+    $.getJSON('/data/officers.json', function (data) {
+      officersArray = data;
+      next();
+    });
+  }
+};

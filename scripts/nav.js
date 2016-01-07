@@ -1,7 +1,7 @@
 var nav = {};
 
-nav.$mainNav = $('#main-nav');
-nav.$innerNav = $('#inner-nav');
+nav.$main = $('#main-nav');
+nav.$inner = $('#inner-nav');
 nav.$arrowDown = $('.fa-angle-down');
 nav.$arrowUp = $('.fa-angle-up');
 
@@ -9,10 +9,10 @@ nav.dropDown = function() {
   $('#hamburger').on('click', function(event) {
     event.preventDefault();
     // $('#links').show();
-    nav.$mainNav.slideToggle();
+    nav.$main.slideToggle();
   });
   $('#links').on('click', function() {
-    nav.$innerNav.slideToggle();
+    nav.$inner.slideToggle();
     nav.$arrowUp.toggle();
     nav.$arrowDown.toggle();
   });
@@ -21,10 +21,10 @@ nav.dropDown = function() {
 nav.resized = function() {
   $(window).resize(function() {
     if (window.innerWidth >= 800) {
-      nav.$mainNav.css('display', 'block');
+      nav.$main.css('display', 'block');
     };
     if (window.innerWidth <= 800) {
-      nav.$mainNav.css('display', 'none');
+      nav.$main.css('display', 'none');
     };
   });
 };
