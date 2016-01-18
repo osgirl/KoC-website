@@ -1,0 +1,14 @@
+[
+  {
+    "event_date": "01-11-2016",
+    "event_title": "Demo Event",
+    "event_location": "Conger Hall",
+    "event_description": "Duis fringilla at nisl gravida. Sed hendrerit metus et mauris facilisis lacinia. Quisque semper lacinia vestibulum. Maecenas ac enim vitae libero viverra scelerisque. Donec vitae neque sit amet libero tristique tristique. Vivamus nec odio ut mauris consequat gravida. Phasellus aliquam hendrerit elementum."
+  },
+  {
+    "event_date": "01-25-2016",
+    "event_title": "Future Event",
+    "event_location": "St. Cecilia Church",
+    "event_description": "Maecenas id nunc finibus, posuere metus vitae, bibendum nisi. Nam posuere posuere malesuada. Cras vel tellus vel mauris semper consectetur vitae in orci."
+  }
+]

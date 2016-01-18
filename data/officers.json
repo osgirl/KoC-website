@@ -41,22 +41,24 @@
     "bio_emblem": "/images/3rddegree-small.png"
   },
   {
-    "name": "",
-    "office": "",
-    "email": "",
-    "phone": "",
+    "name": "Anthony Farrel",
+    "office": "Program Chair",
+    "email": "fanthony50@hotmail.com",
+    "phone": "206-842-1086",
     "bio": "",
-    "bio_pic": "",
-    "degree": ""
+    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/AnthonyFarrell.jpg",
+    "degree": "4th",
+    "bio_emblem": "/images/4thdegree-small.png"
   },
   {
-    "name": "",
-    "office": "",
-    "email": "",
-    "phone": "",
+    "name": "Leo Schilling",
+    "office": "Trustee Three Years",
+    "email": "NA",
+    "phone": "206-842-1116",
     "bio": "",
-    "bio_pic": "",
-    "degree": ""
+    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/Officers/Schilling.jpg",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
   },
   {
     "name": "",

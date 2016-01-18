@@ -4,11 +4,39 @@ main h2 {
   margin-bottom: 0.5em;
 }
 
-section:not(#officers) h2:nth-child(n+2) {
+main section:not(#officers) h2:nth-child(n+2) {
   margin: 2em 0 0;
 }
 
 main p {
   font-size: 1.2em;
   font-weight: lighter;
+}
+
+@media (min-width: 1000px) {
+  #left-container {
+    float: left;
+  }
+
+  #triangle-left {
+    z-index: -1;
+    position: absolute;
+    background-image: url('/images/tri_left.png');
+    margin-left: 0;
+    width: 17px;
+    height: 17px;
+  }
+
+  #right-container {
+    float: right;
+  }
+
+  #triangle-right {
+    z-index: -1;
+    position: absolute;
+    background-image: url('/images/tri_right.png');
+    margin-left: -17px;
+    width: 17px;
+    height: 17px;
+  }
 }
