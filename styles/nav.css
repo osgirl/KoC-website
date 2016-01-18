@@ -78,6 +78,7 @@ nav a {
 }
 
 #inner-nav {
+  z-index: 100;
   display: none;
   list-style-type: none;
   padding: 0 1em 0;

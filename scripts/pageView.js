@@ -24,7 +24,20 @@ pageView.renderOfficers = function(ctx, next) {
   if ($.trim($('.flex-container').html()) === '') {
     $('.flex-container').append(
       officersArray.map(function(ele, index, array) {
-        return pageView.template(ele);
+        return officers.template(ele);
+      })
+    );
+    next();
+  } else {
+    next();
+  }
+};
+
+pageView.renderEvents = function(ctx, next) {
+  if ($.trim($('#events').html()) === '') {
+    $('#events').append(
+      eventsArray.map(function(ele, index, array) {
+        return events.template(ele);
       })
     );
     next();

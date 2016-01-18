@@ -1,12 +1,17 @@
 page('/', pageView.index);
 page('/officers',
-  pageController.getTemplate,
-  pageController.getOfficers,
+  officers.getOfficersTemplate,
+  officers.getOfficers,
   pageView.renderOfficers,
   pageView.officers
 );
 page('/membership', pageView.membership);
-page('/events', pageView.events);
+page('/events',
+  events.getEventsTemplate,
+  events.getEvents,
+  pageView.renderEvents,
+  pageView.events
+);
 page('/activities', pageView.activities);
 
 page.start();

@@ -30,30 +30,4 @@ section {
     padding: 1em 3em 2em;
     margin: 0 0.5em 1em;
   }
-
-  #left-container {
-    float: left;
-  }
-
-  #triangle-left {
-    z-index: -1;
-    position: absolute;
-    background-image: url('/images/tri_left.png');
-    margin-left: 0;
-    width: 17px;
-    height: 17px;
-  }
-
-  #right-container {
-    float: right;
-  }
-
-  #triangle-right {
-    z-index: -1;
-    position: absolute;
-    background-image: url('/images/tri_right.png');
-    margin-left: -17px;
-    width: 17px;
-    height: 17px;
-  }
 }
