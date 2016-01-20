@@ -5,7 +5,7 @@
     "email": "vallywine@sounddsl.com",
     "phone": "206-855-0819",
     "bio": "",
-    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/Officers/Luzzo.jpg",
+    "bio_pic": "/images/officers/Luzzo.jpg",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
@@ -15,7 +15,7 @@
     "email": "raymondpn@msn.com",
     "phone": "206-842-1149",
     "bio": "",
-    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/Officers/Raymond.jpg",
+    "bio_pic": "/images/officers/Raymond.jpg",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
@@ -25,7 +25,7 @@
     "email": "dmcrossland@earthlink.net",
     "phone": "123-456-7890",
     "bio": "",
-    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/Officers/Crossland.jpg",
+    "bio_pic": "/images/officers/Crossland.jpg",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
@@ -35,7 +35,7 @@
     "email": "courtneylaw@comcast.com",
     "phone": "206-660-2059",
     "bio": "",
-    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/Officers/Courtland.jpg",
+    "bio_pic": "/images/officers/Courtney.jpg",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
@@ -45,7 +45,7 @@
     "email": "fanthony50@hotmail.com",
     "phone": "206-842-1086",
     "bio": "",
-    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/AnthonyFarrell.jpg",
+    "bio_pic": "/images/officers/AnthonyFarrell.jpg",
     "degree": "4th",
     "bio_emblem": "/images/4thdegree-small.png"
   },
@@ -55,7 +55,7 @@
     "email": "NA",
     "phone": "206-842-1116",
     "bio": "",
-    "bio_pic": "http://www.saintcparish.org/index_files/knights/images/Officers/Schilling.jpg",
+    "bio_pic": "/images/officers/Schilling.jpg",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
