@@ -2,10 +2,15 @@
   "name": "koc-bainbridge",
   "version": "1.0.0",
   "description": "A website for the Knight of Columbus on Bainbridge Island.",
+  "private": true,
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
   "author": "seth moore",
-  "license": "MIT"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "pushstate-server": "^1.8.1"
+  }
 }
