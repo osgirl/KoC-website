@@ -1,0 +1,9 @@
+{
+  "name": "koc-bainbridge",
+  "version": "0.0.1",
+  "author": "seth-moore",
+  "license": "MIT",
+  "engines": {
+    "node": "4.1.1"
+  }
+}
