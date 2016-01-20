@@ -54,7 +54,7 @@
 .bio-title {
   float: right;
   width: 57%;
-  margin: 1%;
+  margin: 1% 1% 1em;
   padding: 0;
   /*background-color: #F3EFE5;*/
   text-align: center;
@@ -69,12 +69,13 @@
   font-family: Copperplate, 'Marcellus SC', times, serif;
   font-weight: 300;
   font-size: 2em;
+  margin: 0 0 0.25em;
   letter-spacing: -2px;
 }
 
 .bio-title h2 {
   padding: 0;
-  margin: 0 0 0.5em;
+  margin: 0;
   font-weight: 300;
   font-size: 1.25em;
 }
@@ -95,7 +96,7 @@
 
 @media (min-width: 450px) {
   .bio-title {
-    margin-top: 2.5em;
+    margin-top: 1.5em;
   }
 
   .council-profile p {
