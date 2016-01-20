@@ -1,9 +1,10 @@
-{
+{{
   "name": "koc-bainbridge",
-  "version": "0.0.1",
-  "author": "seth-moore",
-  "license": "MIT",
-  "engines": {
-    "node": "4.1.1"
-  }
+  "version": "1.0.0",
+  "description": "A website for the Knight of Columbus on Bainbridge Island.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seth moore",
+  "license": "MIT"
 }
