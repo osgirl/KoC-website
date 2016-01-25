@@ -36,6 +36,7 @@
 }
 
 .bio-emblem {
+  width: 40px;
   position: absolute;
   margin-top: -4px;
 }
