@@ -1,21 +1,31 @@
 [
   {
-    "name": "Daniel Luzzo",
-    "office": "Deputy Grand Knight",
-    "email": "vallywine@sounddsl.com",
-    "phone": "206-855-0819",
+    "name": "Phil Hernandez",
+    "office": "Grand Knight",
+    "email": "phernandez@casey.org",
+    "phone": "(206) 855-7933",
     "bio": "",
-    "bio_pic": "/images/officers/Luzzo.jpg",
+    "bio_pic": "/images/officers/PhilH.png",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
   {
-    "name": "Neill Raymond",
-    "office": "Chancellor",
-    "email": "raymondpn@msn.com",
-    "phone": "206-842-1149",
+    "name": "Perry Osterman",
+    "office": "Deputy Grand Knight",
+    "email": "NA",
+    "phone": "(206) 780-3825",
     "bio": "",
-    "bio_pic": "/images/officers/Raymond.jpg",
+    "bio_pic": "/images/officers/PerryO.png",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
+  },
+  {
+    "name": "Daniel Luzzo",
+    "office": "Chancellor",
+    "email": "vallywine@sounddsl.com",
+    "phone": "(206) 855-0819",
+    "bio": "",
+    "bio_pic": "/images/officers/DanielL.png",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
@@ -25,74 +35,116 @@
     "email": "dmcrossland@earthlink.net",
     "phone": "NA",
     "bio": "",
-    "bio_pic": "/images/officers/Crossland.jpg",
+    "bio_pic": "/images/officers/DennisC.png",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
+  },
+  {
+    "name": "Robert Earhart",
+    "office": "Financial Secretary",
+    "email": "drbob@arrowsmithoncology.com",
+    "phone": "(206) 780-3555",
+    "bio": "",
+    "bio_pic": "/images/officers/BobE.png",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
+  },
+  {
+    "name": "Francis Jacobson",
+    "office": "Treasurer",
+    "email": "frankandwynnjacobson@gmail.com",
+    "phone": "(206) 914-8997",
+    "bio": "",
+    "bio_pic": "/images/officers/FrancisJ.png",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
   {
     "name": "Grant Courtney",
-    "office": "Financial Secretary",
-    "email": "courtneylaw@comcast.com",
-    "phone": "206-660-2059",
+    "office": "Advocate",
+    "email": "courtneylaw@comcast.net",
+    "phone": "(206) 842-1642",
     "bio": "",
-    "bio_pic": "/images/officers/Courtney.jpg",
+    "bio_pic": "/images/officers/GrantC.png",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
   {
-    "name": "Anthony Farrel",
-    "office": "Program Chair",
-    "email": "fanthony50@hotmail.com",
-    "phone": "206-842-1086",
+    "name": "Michael Schweizer",
+    "office": "Warden",
+    "email": "mschweizer68@centurylink.net",
+    "phone": "(360) 779-5475",
     "bio": "",
-    "bio_pic": "/images/officers/AnthonyFarrell.jpg",
-    "degree": "4th",
-    "bio_emblem": "/images/4thdegree-small.png"
+    "bio_pic": "/images/officers/silhouette.jpg",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
+  },
+  {
+    "name": "Patrick Vasicek",
+    "office": "Trustee One Year",
+    "email": "vasicekPR@hotmail.com",
+    "phone": "(206) 842-6971",
+    "bio": "",
+    "bio_pic": "/images/officers/PatV.png",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
+  },
+  {
+    "name": "Paul Yeung",
+    "office": "Trustee Two Years",
+    "email": "NA",
+    "phone": "(206) 780-1132",
+    "bio": "",
+    "bio_pic": "/images/officers/silhouette.jpg",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
   },
   {
     "name": "Leo Schilling",
     "office": "Trustee Three Years",
-    "email": "NA",
-    "phone": "206-842-1116",
+    "email": "schillingin@yahoo.com",
+    "phone": "(206) 842-1116",
     "bio": "",
-    "bio_pic": "/images/officers/Schilling.jpg",
+    "bio_pic": "/images/officers/LeoS.png",
     "degree": "3rd",
     "bio_emblem": "/images/3rddegree-small.png"
   },
   {
-    "name": "",
-    "office": "",
-    "email": "",
-    "phone": "",
+    "name": "James Walker",
+    "office": "Inside Guard",
+    "email": "NA",
+    "phone": "(206) 780-3169",
     "bio": "",
-    "bio_pic": "",
-    "degree": ""
+    "bio_pic": "/images/officers/silhouette.jpg",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
   },
   {
-    "name": "",
-    "office": "",
-    "email": "",
-    "phone": "",
+    "name": "Kevin Kanyer",
+    "office": "Outside Guard",
+    "email": "NA",
+    "phone": "NA",
     "bio": "",
-    "bio_pic": "",
-    "degree": ""
+    "bio_pic": "/images/officers/KevinK.png",
+    "degree": "3rd",
+    "bio_emblem": "/images/3rddegree-small.png"
   },
   {
-    "name": "",
-    "office": "",
-    "email": "",
-    "phone": "",
+    "name": "Fr. Joseph Mitchell",
+    "office": "Chaplain",
+    "email": "pastor@saintcparish.org",
+    "phone": "(206) 842-3594",
     "bio": "",
-    "bio_pic": "",
-    "degree": ""
+    "bio_pic": "/images/officers/silhouette.jpg"
   },
   {
-    "name": "",
-    "office": "",
-    "email": "",
-    "phone": "",
+    "name": "Anthony Farrel",
+    "office": "District Deputy",
+    "email": "fanthony50@hotmail.com",
+    "phone": "(206) 842-1086",
     "bio": "",
-    "bio_pic": "",
-    "degree": ""
+    "bio_pic": "/images/officers/AnthonyF.png",
+    "degree": "4th",
+    "bio_emblem": "/images/4thdegree-small.png"
   }
 ]
